@@ -1,11 +1,3 @@
-/*
-COLORS:
-
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-
-*/
 @-webkit-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -22,6 +14,7 @@ Dark green: #28b485
             transform: translate(0);
   }
 }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -178,8 +171,7 @@ body {
           animation-timing-function: ease-out;
 }
 
-.btn,
-.btn:visited {
+.btn, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
